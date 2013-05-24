@@ -2,6 +2,21 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BreakpadReportInterval</key>
+	<string>0</string>
+	<key>BreakpadRequestComments</key>
+	<string>YES</string>
+	<key>BreakpadRequestEmail</key>
+	<string>YES</string>
+	<key>BreakpadServerParameters</key>
+	<dict>
+		<key>TestParam</key>
+		<string>Custom Parameter</string>
+	</dict>
+	<key>BreakpadURL</key>
+	<string>http://example.com/upload/crash.php</string>
+	<key>BreakpadVendor</key>
+	<string>My Test Company</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>

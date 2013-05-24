@@ -13,7 +13,23 @@
 		DBD04C92174FA25B00209B26 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DBD04C90174FA25B00209B26 /* Credits.rtf */; };
 		DBD04C95174FA25B00209B26 /* OOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD04C94174FA25B00209B26 /* OOAppDelegate.m */; };
 		DBD04C98174FA25B00209B26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD04C96174FA25B00209B26 /* MainMenu.xib */; };
+		DBD04D63174FDF4A00209B26 /* Breakpad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD04D62174FDF4A00209B26 /* Breakpad.framework */; };
+		DBD04D64174FDF6B00209B26 /* Breakpad.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = DBD04D62174FDF4A00209B26 /* Breakpad.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DBD04CA2174FA2FF00209B26 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DBD04D64174FDF6B00209B26 /* Breakpad.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		DBD04C7D174FA25B00209B26 /* BreakpadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakpadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,14 +37,20 @@
 		DBD04C84174FA25B00209B26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		DBD04C85174FA25B00209B26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DBD04C86174FA25B00209B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		DBD04C89174FA25B00209B26 /* BreakpadTest-Info.plist */ = {isa = PBXFileReference; path = "BreakpadTest-Info.plist"; sourceTree = "<group>"; };
+		DBD04C89174FA25B00209B26 /* BreakpadTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BreakpadTest-Info.plist"; sourceTree = "<group>"; };
 		DBD04C8B174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DBD04C8D174FA25B00209B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DBD04C8F174FA25B00209B26 /* BreakpadTest-Prefix.pch */ = {isa = PBXFileReference; path = "BreakpadTest-Prefix.pch"; sourceTree = "<group>"; };
+		DBD04C8F174FA25B00209B26 /* BreakpadTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BreakpadTest-Prefix.pch"; sourceTree = "<group>"; };
 		DBD04C91174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		DBD04C93174FA25B00209B26 /* OOAppDelegate.h */ = {isa = PBXFileReference; path = OOAppDelegate.h; sourceTree = "<group>"; };
+		DBD04C93174FA25B00209B26 /* OOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOAppDelegate.h; sourceTree = "<group>"; };
 		DBD04C94174FA25B00209B26 /* OOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOAppDelegate.m; sourceTree = "<group>"; };
 		DBD04C97174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DBD04D18174FD29E00209B26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		DBD04D20174FDB4F00209B26 /* dump_syms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dump_syms; sourceTree = "<group>"; };
+		DBD04D22174FDB4F00209B26 /* minidump_stackwalk */ = {isa = PBXFileReference; lastKnownFileType = file; path = minidump_stackwalk; sourceTree = "<group>"; };
+		DBD04D23174FDB4F00209B26 /* symupload */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = symupload; sourceTree = "<group>"; };
+		DBD04D25174FDB4F00209B26 /* crash.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = crash.php; sourceTree = "<group>"; };
+		DBD04D62174FDF4A00209B26 /* Breakpad.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Breakpad.framework; path = Frameworks/Breakpad.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD04C82174FA25B00209B26 /* Cocoa.framework in Frameworks */,
+				DBD04D63174FDF4A00209B26 /* Breakpad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD04C87174FA25B00209B26 /* BreakpadTest */,
+				DBD04CA1174FA2BE00209B26 /* Utilities */,
 				DBD04C80174FA25B00209B26 /* Frameworks */,
 				DBD04C7E174FA25B00209B26 /* Products */,
 			);
@@ -63,6 +87,7 @@
 		DBD04C80174FA25B00209B26 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DBD04D62174FDF4A00209B26 /* Breakpad.framework */,
 				DBD04C81174FA25B00209B26 /* Cocoa.framework */,
 				DBD04C83174FA25B00209B26 /* Other Frameworks */,
 			);
@@ -86,6 +111,7 @@
 				DBD04C94174FA25B00209B26 /* OOAppDelegate.m */,
 				DBD04C96174FA25B00209B26 /* MainMenu.xib */,
 				DBD04C88174FA25B00209B26 /* Supporting Files */,
+				DBD04D18174FD29E00209B26 /* README.md */,
 			);
 			path = BreakpadTest;
 			sourceTree = "<group>";
@@ -102,6 +128,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DBD04CA1174FA2BE00209B26 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04D20174FDB4F00209B26 /* dump_syms */,
+				DBD04D21174FDB4F00209B26 /* Linux */,
+				DBD04D23174FDB4F00209B26 /* symupload */,
+				DBD04D24174FDB4F00209B26 /* Web */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DBD04D21174FDB4F00209B26 /* Linux */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04D22174FDB4F00209B26 /* minidump_stackwalk */,
+			);
+			path = Linux;
+			sourceTree = "<group>";
+		};
+		DBD04D24174FDB4F00209B26 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04D25174FDB4F00209B26 /* crash.php */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -112,6 +165,8 @@
 				DBD04C79174FA25B00209B26 /* Sources */,
 				DBD04C7A174FA25B00209B26 /* Frameworks */,
 				DBD04C7B174FA25B00209B26 /* Resources */,
+				DBD04CA2174FA2FF00209B26 /* Copy Frameworks */,
+				DBD04CA4174FA38800209B26 /* Dump symbols */,
 			);
 			buildRules = (
 			);
@@ -161,6 +216,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DBD04CA4174FA38800209B26 /* Dump symbols */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Dump symbols";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TOOL_DIR=${SOURCE_ROOT}/Utilities/\nPROD=${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${EXECUTABLE_NAME}\nfor a in ppc i386 x86_64; do\n    if lipo \"$PROD\" -verify_arch $a; then\n        \"$TOOL_DIR/dump_syms\" -a $a \"$PROD\" > \"$TARGET_NAME $a.breakpad\"\n    fi\ndone\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DBD04C79174FA25B00209B26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -205,8 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -224,6 +297,8 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
@@ -231,7 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -243,12 +318,18 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
 		DBD04C9C174FA25B00209B26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BreakpadTest/BreakpadTest-Prefix.pch";
 				INFOPLIST_FILE = "BreakpadTest/BreakpadTest-Info.plist";
@@ -260,6 +341,10 @@
 		DBD04C9D174FA25B00209B26 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BreakpadTest/BreakpadTest-Prefix.pch";
 				INFOPLIST_FILE = "BreakpadTest/BreakpadTest-Info.plist";
@@ -287,6 +372,7 @@
 				DBD04C9D174FA25B00209B26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
