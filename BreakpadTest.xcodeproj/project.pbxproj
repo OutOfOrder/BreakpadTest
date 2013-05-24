@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBD04C82174FA25B00209B26 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBD04C81174FA25B00209B26 /* Cocoa.framework */; };
+		DBD04C8C174FA25B00209B26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DBD04C8A174FA25B00209B26 /* InfoPlist.strings */; };
+		DBD04C8E174FA25B00209B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD04C8D174FA25B00209B26 /* main.m */; };
+		DBD04C92174FA25B00209B26 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = DBD04C90174FA25B00209B26 /* Credits.rtf */; };
+		DBD04C95174FA25B00209B26 /* OOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD04C94174FA25B00209B26 /* OOAppDelegate.m */; };
+		DBD04C98174FA25B00209B26 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD04C96174FA25B00209B26 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DBD04C7D174FA25B00209B26 /* BreakpadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakpadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD04C81174FA25B00209B26 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		DBD04C84174FA25B00209B26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DBD04C85174FA25B00209B26 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DBD04C86174FA25B00209B26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DBD04C89174FA25B00209B26 /* BreakpadTest-Info.plist */ = {isa = PBXFileReference; path = "BreakpadTest-Info.plist"; sourceTree = "<group>"; };
+		DBD04C8B174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DBD04C8D174FA25B00209B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBD04C8F174FA25B00209B26 /* BreakpadTest-Prefix.pch */ = {isa = PBXFileReference; path = "BreakpadTest-Prefix.pch"; sourceTree = "<group>"; };
+		DBD04C91174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		DBD04C93174FA25B00209B26 /* OOAppDelegate.h */ = {isa = PBXFileReference; path = OOAppDelegate.h; sourceTree = "<group>"; };
+		DBD04C94174FA25B00209B26 /* OOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOAppDelegate.m; sourceTree = "<group>"; };
+		DBD04C97174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBD04C7A174FA25B00209B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD04C82174FA25B00209B26 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBD04C72174FA25B00209B26 = {
+			isa = PBXGroup;
+			children = (
+				DBD04C87174FA25B00209B26 /* BreakpadTest */,
+				DBD04C80174FA25B00209B26 /* Frameworks */,
+				DBD04C7E174FA25B00209B26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBD04C7E174FA25B00209B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04C7D174FA25B00209B26 /* BreakpadTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBD04C80174FA25B00209B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04C81174FA25B00209B26 /* Cocoa.framework */,
+				DBD04C83174FA25B00209B26 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBD04C83174FA25B00209B26 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04C84174FA25B00209B26 /* AppKit.framework */,
+				DBD04C85174FA25B00209B26 /* CoreData.framework */,
+				DBD04C86174FA25B00209B26 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		DBD04C87174FA25B00209B26 /* BreakpadTest */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04C93174FA25B00209B26 /* OOAppDelegate.h */,
+				DBD04C94174FA25B00209B26 /* OOAppDelegate.m */,
+				DBD04C96174FA25B00209B26 /* MainMenu.xib */,
+				DBD04C88174FA25B00209B26 /* Supporting Files */,
+			);
+			path = BreakpadTest;
+			sourceTree = "<group>";
+		};
+		DBD04C88174FA25B00209B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DBD04C89174FA25B00209B26 /* BreakpadTest-Info.plist */,
+				DBD04C8A174FA25B00209B26 /* InfoPlist.strings */,
+				DBD04C8D174FA25B00209B26 /* main.m */,
+				DBD04C8F174FA25B00209B26 /* BreakpadTest-Prefix.pch */,
+				DBD04C90174FA25B00209B26 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBD04C7C174FA25B00209B26 /* BreakpadTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBD04C9B174FA25B00209B26 /* Build configuration list for PBXNativeTarget "BreakpadTest" */;
+			buildPhases = (
+				DBD04C79174FA25B00209B26 /* Sources */,
+				DBD04C7A174FA25B00209B26 /* Frameworks */,
+				DBD04C7B174FA25B00209B26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakpadTest;
+			productName = BreakpadTest;
+			productReference = DBD04C7D174FA25B00209B26 /* BreakpadTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBD04C74174FA25B00209B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = OutOfOrder.cc;
+			};
+			buildConfigurationList = DBD04C77174FA25B00209B26 /* Build configuration list for PBXProject "BreakpadTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DBD04C72174FA25B00209B26;
+			productRefGroup = DBD04C7E174FA25B00209B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBD04C7C174FA25B00209B26 /* BreakpadTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBD04C7B174FA25B00209B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD04C8C174FA25B00209B26 /* InfoPlist.strings in Resources */,
+				DBD04C92174FA25B00209B26 /* Credits.rtf in Resources */,
+				DBD04C98174FA25B00209B26 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBD04C79174FA25B00209B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBD04C8E174FA25B00209B26 /* main.m in Sources */,
+				DBD04C95174FA25B00209B26 /* OOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DBD04C8A174FA25B00209B26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD04C8B174FA25B00209B26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DBD04C90174FA25B00209B26 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD04C91174FA25B00209B26 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		DBD04C96174FA25B00209B26 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBD04C97174FA25B00209B26 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBD04C99174FA25B00209B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DBD04C9A174FA25B00209B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DBD04C9C174FA25B00209B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BreakpadTest/BreakpadTest-Prefix.pch";
+				INFOPLIST_FILE = "BreakpadTest/BreakpadTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DBD04C9D174FA25B00209B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BreakpadTest/BreakpadTest-Prefix.pch";
+				INFOPLIST_FILE = "BreakpadTest/BreakpadTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBD04C77174FA25B00209B26 /* Build configuration list for PBXProject "BreakpadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD04C99174FA25B00209B26 /* Debug */,
+				DBD04C9A174FA25B00209B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBD04C9B174FA25B00209B26 /* Build configuration list for PBXNativeTarget "BreakpadTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBD04C9C174FA25B00209B26 /* Debug */,
+				DBD04C9D174FA25B00209B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBD04C74174FA25B00209B26 /* Project object */;
+}
