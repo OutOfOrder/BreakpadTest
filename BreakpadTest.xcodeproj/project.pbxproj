@@ -32,6 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB2C4E84175002FB00501EFF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DBD04C7D174FA25B00209B26 /* BreakpadTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakpadTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD04C81174FA25B00209B26 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		DBD04C84174FA25B00209B26 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -45,7 +46,6 @@
 		DBD04C93174FA25B00209B26 /* OOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OOAppDelegate.h; sourceTree = "<group>"; };
 		DBD04C94174FA25B00209B26 /* OOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OOAppDelegate.m; sourceTree = "<group>"; };
 		DBD04C97174FA25B00209B26 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		DBD04D18174FD29E00209B26 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		DBD04D20174FDB4F00209B26 /* dump_syms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dump_syms; sourceTree = "<group>"; };
 		DBD04D22174FDB4F00209B26 /* minidump_stackwalk */ = {isa = PBXFileReference; lastKnownFileType = file; path = minidump_stackwalk; sourceTree = "<group>"; };
 		DBD04D23174FDB4F00209B26 /* symupload */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = symupload; sourceTree = "<group>"; };
@@ -69,6 +69,7 @@
 		DBD04C72174FA25B00209B26 = {
 			isa = PBXGroup;
 			children = (
+				DB2C4E84175002FB00501EFF /* README.md */,
 				DBD04C87174FA25B00209B26 /* BreakpadTest */,
 				DBD04CA1174FA2BE00209B26 /* Utilities */,
 				DBD04C80174FA25B00209B26 /* Frameworks */,
@@ -111,7 +112,6 @@
 				DBD04C94174FA25B00209B26 /* OOAppDelegate.m */,
 				DBD04C96174FA25B00209B26 /* MainMenu.xib */,
 				DBD04C88174FA25B00209B26 /* Supporting Files */,
-				DBD04D18174FD29E00209B26 /* README.md */,
 			);
 			path = BreakpadTest;
 			sourceTree = "<group>";
