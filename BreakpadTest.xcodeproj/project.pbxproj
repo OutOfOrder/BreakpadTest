@@ -229,7 +229,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "TOOL_DIR=${SOURCE_ROOT}/Utilities/\nPROD=${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${EXECUTABLE_NAME}\nfor a in ppc i386 x86_64; do\n    if lipo \"$PROD\" -verify_arch $a; then\n        \"$TOOL_DIR/dump_syms\" -a $a \"$PROD\" > \"$TARGET_NAME $a.breakpad\"\n    fi\ndone\n";
+			shellScript = "TOOL_DIR=${SOURCE_ROOT}/Utilities/\nPROD=${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${EXECUTABLE_NAME}\nfor a in ppc i386 x86_64; do\n    if lipo \"$PROD\" -verify_arch $a; then\n        \"$TOOL_DIR/dump_syms\" -a $a \"$PROD\" > \"$TARGET_NAME-$a.breakpad\"\n    fi\ndone\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
