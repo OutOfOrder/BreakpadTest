@@ -1,0 +1,84 @@
+MODULE mac x86_64 982E1C8A1E043B6CB7F53C2442B607790 BreakpadTest
+FILE 0 /Users/urkle/Projects/Google/BreakpadTest/BreakpadTest/OOAppDelegate.m
+FILE 1 /Users/urkle/Projects/Google/BreakpadTest/BreakpadTest/main.m
+FUNC 1254 a 0 main
+1254 4 12 1
+1258 1 13 1
+1259 5 11 1
+FUNC 125e fa 0 -[OOAppDelegate awakeFromNib]
+125e d 26 0
+126b 2a 12 0
+1295 23 14 0
+12b8 b 16 0
+12c3 10 18 0
+12d3 b 28 0
+12de 10 29 0
+12ee e 30 0
+12fc 1a 32 0
+1316 2 33 0
+1318 25 34 0
+133d 1b 36 0
+FUNC 1358 2d 0 -[OOAppDelegate dealloc]
+1358 4 40 0
+135c 23 42 0
+137f 6 43 0
+FUNC 1385 6 0 -[OOAppDelegate applicationDidFinishLaunching:]
+1385 4 45 0
+1389 2 48 0
+FUNC 138b b 0 -[OOAppDelegate applicationShouldTerminateAfterLastWindowClosed:]
+138b 9 50 0
+1394 2 52 0
+FUNC 1396 1b 0 -[OOAppDelegate applicationShouldTerminate:]
+1396 4 55 0
+139a 15 57 0
+13af 2 58 0
+FUNC 13b1 4d 0 -[OOAppDelegate testCrash:]
+13b1 4 67 0
+13b5 37 70 0
+13ec 10 73 0
+13fc 2 75 0
+FUNC 13fe 1ab 0 -[OOAppDelegate chooseLogFile:]
+13fe 17 78 0
+1415 1b 80 0
+1430 12 81 0
+1442 f 82 0
+1451 1b 84 0
+146c 18 86 0
+1484 48 87 0
+14cc 11 89 0
+14dd 1c 87 0
+14f9 b 88 0
+1504 8 87 0
+150c 8 88 0
+1514 2e 89 0
+1542 18 90 0
+155a 3d 91 0
+1597 12 93 0
+FUNC 15a9 11 0 -[OOAppDelegate window]
+15a9 f 24 0
+15b8 2 24 0
+FUNC 15ba 11 0 -[OOAppDelegate setWindow:]
+15ba 4 24 0
+15be d 24 0
+PUBLIC 1218 0 start
+PUBLIC 1254 0 main
+PUBLIC 125e 0 -[OOAppDelegate awakeFromNib]
+PUBLIC 1358 0 -[OOAppDelegate dealloc]
+PUBLIC 1385 0 -[OOAppDelegate applicationDidFinishLaunching:]
+PUBLIC 138b 0 -[OOAppDelegate applicationShouldTerminateAfterLastWindowClosed:]
+PUBLIC 1396 0 -[OOAppDelegate applicationShouldTerminate:]
+PUBLIC 13b1 0 -[OOAppDelegate testCrash:]
+PUBLIC 13fe 0 -[OOAppDelegate chooseLogFile:]
+PUBLIC 15a9 0 -[OOAppDelegate window]
+PUBLIC 15ba 0 -[OOAppDelegate setWindow:]
+PUBLIC 2810 0 OBJC_CLASS_$_OOAppDelegate
+PUBLIC 2838 0 OBJC_METACLASS_$_OOAppDelegate
+PUBLIC 2860 0 NXArgc
+PUBLIC 2868 0 NXArgv
+PUBLIC 2870 0 environ
+PUBLIC 2878 0 __progname
+PUBLIC 2910 0 OBJC_IVAR_$_OOAppDelegate.breakpad
+PUBLIC 2918 0 OBJC_IVAR_$_OOAppDelegate._breakpadURL
+PUBLIC 2920 0 OBJC_IVAR_$_OOAppDelegate._breakpadEnabledLabel
+PUBLIC 2928 0 OBJC_IVAR_$_OOAppDelegate._fileLog
+PUBLIC 2930 0 OBJC_IVAR_$_OOAppDelegate._window

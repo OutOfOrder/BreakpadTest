@@ -3,6 +3,8 @@ Breakpad Sample Application
 
 This is a simple demo application to test the Breakpad functionality..  It simply allows the end user to specify the crash upload URL and optionally attach log files that will be uploaded with the crash report.
 
+Sample prebuild app binaries and dump files are included in the Samples folder
+
 Utilities
 =========
 In the Utilities folder are the various utiltiis to prep the debug symbols, upload them to a server, and process the received dumps.
@@ -46,6 +48,11 @@ symbol_file
 
 Symbol files should be processed into a directory structure like this
 ${code_file}/${debug_identifier}/${code_file}.sym
+
+These values can also be retrieved from the symbol file directly on the first line
+MODULE ${os} ${cpu} ${debug_identifier} ${code_file}
+
+NOTE: code file may contain spaces and should be everything to the end of the line
 
 When running the minidump_stackwalk utility it will expect files in this structure in order to find them.
 

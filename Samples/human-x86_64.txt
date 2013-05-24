@@ -1,0 +1,430 @@
+Operating system: Mac OS X
+                  10.6.8 10K549
+CPU: amd64
+     family 6 model 15 stepping 6
+     4 CPUs
+
+Crash reason:  EXC_BAD_INSTRUCTION / 0x00000001
+Crash address: 0x1000013fc
+
+Thread 0 (crashed)
+ 0  BreakpadTest!-[OOAppDelegate testCrash:] [OOAppDelegate.m : 75 + 0x0]
+    rbx = 0x00000001000f3000   r12 = 0x0000000100509ce0
+    r13 = 0x0000000100001beb   r14 = 0x00007fff70b39b60
+    r15 = 0x0000000100509ce0   rip = 0x00000001000013fc
+    rsp = 0x00007fff5fbfdf20   rbp = 0x00007fff5fbfdf30
+    Found by: given as instruction pointer in context
+ 1  AppKit + 0x198eda
+    rip = 0x00007fff84d38eda   rsp = 0x00007fff5fbfdf40
+    rbp = 0x00007fff5fbfdf60
+    Found by: stack scanning
+ 2  AppKit + 0x198e39
+    rip = 0x00007fff84d38e39   rsp = 0x00007fff5fbfdf70
+    rbp = 0x00007fff5fbfdf90
+    Found by: stack scanning
+ 3  AppKit + 0x748004
+    rip = 0x00007fff852e8004   rsp = 0x00007fff5fbfdf78
+    rbp = 0x00007fff5fbfdf90
+    Found by: stack scanning
+ 4  AppKit + 0x22484b
+    rip = 0x00007fff84dc484b   rsp = 0x00007fff5fbfdfa0
+    rbp = 0x00007fff5fbfe0b0
+    Found by: stack scanning
+ 5  AppKit + 0x7434b0
+    rip = 0x00007fff852e34b0   rsp = 0x00007fff5fbfdfd0
+    rbp = 0x00007fff5fbfe0b0
+    Found by: stack scanning
+ 6  AppKit + 0x73a0c0
+    rip = 0x00007fff852da0c0   rsp = 0x00007fff5fbfdfe0
+    rbp = 0x00007fff5fbfe0b0
+    Found by: stack scanning
+ 7  AppKit + 0x75e00e
+    rip = 0x00007fff852fe00e   rsp = 0x00007fff5fbfdfe8
+    rbp = 0x00007fff5fbfe0b0
+    Found by: stack scanning
+ 8  CoreFoundation + 0x29f30
+    rip = 0x00007fff81beaf30   rsp = 0x00007fff5fbfe078
+    rbp = 0x00007fff5fbfe0b0
+    Found by: stack scanning
+ 9  AppKit + 0x25537a
+    rip = 0x00007fff84df537a   rsp = 0x00007fff5fbfe0c0
+    rbp = 0x00007fff5fbfe170
+    Found by: stack scanning
+10  CoreFoundation + 0x29f30
+    rip = 0x00007fff81beaf30   rsp = 0x00007fff5fbfe138
+    rbp = 0x00007fff5fbfe170
+    Found by: stack scanning
+11  AppKit + 0x2232f5
+    rip = 0x00007fff84dc32f5   rsp = 0x00007fff5fbfe180
+    rbp = 0x00007fff5fbfe210
+    Found by: stack scanning
+12  AppKit + 0x775468
+    rip = 0x00007fff85315468   rsp = 0x00007fff5fbfe1a8
+    rbp = 0x00007fff5fbfe210
+    Found by: stack scanning
+13  AppKit + 0x74c74c
+    rip = 0x00007fff852ec74c   rsp = 0x00007fff5fbfe1b0
+    rbp = 0x00007fff5fbfe210
+    Found by: stack scanning
+14  AppKit + 0x13d3a7
+    rip = 0x00007fff84cdd3a7   rsp = 0x00007fff5fbfe220
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+15  AppKit + 0x73aa84
+    rip = 0x00007fff852daa84   rsp = 0x00007fff5fbfe258
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+16  CoreFoundation + 0x2231b
+    rip = 0x00007fff81be331b   rsp = 0x00007fff5fbfe260
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+17  CoreFoundation + 0x1052c
+    rip = 0x00007fff81bd152c   rsp = 0x00007fff5fbfe270
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+18  CoreFoundation + 0x104c8
+    rip = 0x00007fff81bd14c8   rsp = 0x00007fff5fbfe280
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+19  libSystem.B.dylib + 0x6154
+    rip = 0x00007fff836d0154   rsp = 0x00007fff5fbfe288
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+20  libSystem.B.dylib + 0x64a3
+    rip = 0x00007fff836d04a3   rsp = 0x00007fff5fbfe2c0
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+21  AppKit + 0x74c716
+    rip = 0x00007fff852ec716   rsp = 0x00007fff5fbfe2d8
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+22  AppKit + 0x734f28
+    rip = 0x00007fff852d4f28   rsp = 0x00007fff5fbfe340
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+23  libSystem.B.dylib + 0x617e
+    rip = 0x00007fff836d017e   rsp = 0x00007fff5fbfe348
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+24  libobjc.A.dylib + 0x1257c
+    rip = 0x00007fff81da257c   rsp = 0x00007fff5fbfe350
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+25  libobjc.A.dylib + 0xcdaa
+    rip = 0x00007fff81d9cdaa   rsp = 0x00007fff5fbfe360
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+26  AppKit + 0x743ca0
+    rip = 0x00007fff852e3ca0   rsp = 0x00007fff5fbfe380
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+27  libobjc.A.dylib + 0x4faa
+    rip = 0x00007fff81d94faa   rsp = 0x00007fff5fbfe3a0
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+28  libSystem.B.dylib + 0x669a
+    rip = 0x00007fff836d069a   rsp = 0x00007fff5fbfe3c0
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+29  Foundation + 0x6248
+    rip = 0x00007fff814c0248   rsp = 0x00007fff5fbfe3e0
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+30  AppKit + 0x785848
+    rip = 0x00007fff85325848   rsp = 0x00007fff5fbfe418
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+31  AppKit + 0x70721
+    rip = 0x00007fff84c10721   rsp = 0x00007fff5fbfe430
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+32  AppKit + 0x74ca50
+    rip = 0x00007fff852eca50   rsp = 0x00007fff5fbfe440
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+33  AppKit + 0x743ca0
+    rip = 0x00007fff852e3ca0   rsp = 0x00007fff5fbfe450
+    rbp = 0x00007fff5fbfe460
+    Found by: stack scanning
+34  AppKit + 0x72afa
+    rip = 0x00007fff84c12afa   rsp = 0x00007fff5fbfe470
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+35  CoreFoundation + 0x24805
+    rip = 0x00007fff81be5805   rsp = 0x00007fff5fbfe4e0
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+36  AppKit + 0x715bd
+    rip = 0x00007fff84c115bd   rsp = 0x00007fff5fbfe4f0
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+37  CoreFoundation + 0x24679
+    rip = 0x00007fff81be5679   rsp = 0x00007fff5fbfe540
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+38  AppKit + 0x7151d
+    rip = 0x00007fff84c1151d   rsp = 0x00007fff5fbfe560
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+39  AppKit + 0x74c780
+    rip = 0x00007fff852ec780   rsp = 0x00007fff5fbfe578
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+40  AppKit + 0x43b1e
+    rip = 0x00007fff84be3b1e   rsp = 0x00007fff5fbfe590
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+41  CoreFoundation + 0x104c8
+    rip = 0x00007fff81bd14c8   rsp = 0x00007fff5fbfe670
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+42  CoreFoundation + 0xfc43
+    rip = 0x00007fff81bd0c43   rsp = 0x00007fff5fbfe710
+    rbp = 0x00007fff5fbfe780
+    Found by: stack scanning
+43  Afloat + 0x3479
+    rip = 0x00000001007d0479   rsp = 0x00007fff5fbfe790
+    rbp = 0x00007fff5fbfe830
+    Found by: stack scanning
+44  CoreFoundation + 0x24805
+    rip = 0x00007fff81be5805   rsp = 0x00007fff5fbfe7c0
+    rbp = 0x00007fff5fbfe830
+    Found by: stack scanning
+45  AppKit + 0x7808e0
+    rip = 0x00007fff853208e0   rsp = 0x00007fff5fbfe810
+    rbp = 0x00007fff5fbfe830
+    Found by: stack scanning
+46  AppKit + 0x7808e0
+    rip = 0x00007fff853208e0   rsp = 0x00007fff5fbfe830
+    rbp = 0x00007fff5fbfe830
+    Found by: stack scanning
+47  AppKit + 0x96de
+    rip = 0x00007fff84ba96de   rsp = 0x00007fff5fbfe840
+    rbp = 0x00007fff5fbfe890
+    Found by: stack scanning
+48  AppKit + 0x23b0
+    rip = 0x00007fff84ba23b0   rsp = 0x00007fff5fbfe8a0
+    rbp = 0x00007fff5fbfe8c0
+    Found by: stack scanning
+49  BreakpadTest!start + 0x34
+    rip = 0x000000010000124c   rsp = 0x00007fff5fbfe8d0
+    rbp = 0x00007fff5fbfe8d8
+    Found by: stack scanning
+
+Thread 1
+ 0  libSystem.B.dylib + 0x19c0a
+    rbx = 0x0000000100380e50   r12 = 0x00007fff706ba998
+    r13 = 0x00007fff706bad68   r14 = 0xffffffffffffffff
+    r15 = 0x00007fff706bada8   rip = 0x00007fff836e3c0a
+    rsp = 0x0000000100380ce8   rbp = 0x0000000100380e90
+    Found by: given as instruction pointer in context
+ 1  libSystem.B.dylib + 0x1badd
+    rip = 0x00007fff836e5add   rsp = 0x0000000100380cf0
+    rbp = 0x0000000100380e90
+    Found by: stack scanning
+ 2  libSystem.B.dylib + 0x1ca9b
+    rip = 0x00007fff836e6a9b   rsp = 0x0000000100380d50
+    rbp = 0x0000000100380e90
+    Found by: stack scanning
+ 3  libSystem.B.dylib + 0x1c92d
+    rip = 0x00007fff836e692d   rsp = 0x0000000100380d70
+    rbp = 0x0000000100380e90
+    Found by: stack scanning
+ 4  libSystem.B.dylib + 0x1c78b
+    rip = 0x00007fff836e678b   rsp = 0x0000000100380dc0
+    rbp = 0x0000000100380e90
+    Found by: stack scanning
+ 5  libSystem.B.dylib + 0x19c28
+    rip = 0x00007fff836e3c28   rsp = 0x0000000100380df0
+    rbp = 0x0000000100380e90
+    Found by: stack scanning
+ 6  libSystem.B.dylib + 0x1b796
+    rip = 0x00007fff836e5796   rsp = 0x0000000100380e10
+    rbp = 0x0000000100380e90
+    Found by: stack scanning
+ 7  libSystem.B.dylib + 0x1b7b4
+    rip = 0x00007fff836e57b4   rsp = 0x0000000100380ea0
+    rbp = 0x0000000100380ec0
+    Found by: stack scanning
+ 8  libSystem.B.dylib + 0x1b2de
+    rip = 0x00007fff836e52de   rsp = 0x0000000100380ed0
+    rbp = 0x0000000100380f20
+    Found by: stack scanning
+ 9  libSystem.B.dylib + 0x1ac08
+    rip = 0x00007fff836e4c08   rsp = 0x0000000100380f30
+    rbp = 0x0000000100380f50
+    Found by: stack scanning
+10  libSystem.B.dylib + 0x1aaa5
+    rip = 0x00007fff836e4aa5   rsp = 0x0000000100380f60
+    rbp = 0x0000000100380f78
+    Found by: stack scanning
+11  libSystem.B.dylib + 0x1b1e2
+    rip = 0x00007fff836e51e2   rsp = 0x0000000100381050
+    Found by: stack scanning
+
+Thread 2
+ 0  libSystem.B.dylib + 0x1aa2a
+    rbx = 0x0000000100681000   r12 = 0x0000000101000570
+    r13 = 0x000000010100bc00   r14 = 0x0000000100681000
+    r15 = 0x0000000000000000   rip = 0x00007fff836e4a2a
+    rsp = 0x0000000100680f28   rbp = 0x0000000100680f50
+    Found by: given as instruction pointer in context
+ 1  libSystem.B.dylib + 0x1ae3c
+    rip = 0x00007fff836e4e3c   rsp = 0x0000000100680f30
+    rbp = 0x0000000100680f50
+    Found by: stack scanning
+ 2  libSystem.B.dylib + 0x1aaa5
+    rip = 0x00007fff836e4aa5   rsp = 0x0000000100680f60
+    rbp = 0x0000000100680f78
+    Found by: stack scanning
+ 3  libSystem.B.dylib + 0x1b1e2
+    rip = 0x00007fff836e51e2   rsp = 0x0000000100681050
+    Found by: stack scanning
+
+Thread 3
+ 0  libSystem.B.dylib + 0x1aa2a
+    rbx = 0x0000000103edc000   r12 = 0x0000000101000750
+    r13 = 0x000000010100bd98   r14 = 0x0000000103edc000
+    r15 = 0x0000000000000000   rip = 0x00007fff836e4a2a
+    rsp = 0x0000000103edbf28   rbp = 0x0000000103edbf50
+    Found by: given as instruction pointer in context
+ 1  libSystem.B.dylib + 0x1ae3c
+    rip = 0x00007fff836e4e3c   rsp = 0x0000000103edbf30
+    rbp = 0x0000000103edbf50
+    Found by: stack scanning
+ 2  libSystem.B.dylib + 0x1aaa5
+    rip = 0x00007fff836e4aa5   rsp = 0x0000000103edbf60
+    rbp = 0x0000000103edbf78
+    Found by: stack scanning
+ 3  libSystem.B.dylib + 0x1b1e2
+    rip = 0x00007fff836e51e2   rsp = 0x0000000103edc050
+    Found by: stack scanning
+
+Thread 4
+ 0  libSystem.B.dylib + 0x1aa2a
+    rbx = 0x0000000116d5d000   r12 = 0x00000001010006f0
+    r13 = 0x000000010100bc00   r14 = 0x0000000116d5d000
+    r15 = 0x0000000000000000   rip = 0x00007fff836e4a2a
+    rsp = 0x0000000116d5cf28   rbp = 0x0000000116d5cf50
+    Found by: given as instruction pointer in context
+ 1  libSystem.B.dylib + 0x1ae3c
+    rip = 0x00007fff836e4e3c   rsp = 0x0000000116d5cf30
+    rbp = 0x0000000116d5cf50
+    Found by: stack scanning
+ 2  libSystem.B.dylib + 0x1aaa5
+    rip = 0x00007fff836e4aa5   rsp = 0x0000000116d5cf60
+    rbp = 0x0000000116d5cf78
+    Found by: stack scanning
+ 3  libSystem.B.dylib + 0x1b1e2
+    rip = 0x00007fff836e51e2   rsp = 0x0000000116d5d050
+    Found by: stack scanning
+
+Loaded modules:
+0x100000000 - 0x100001fff  BreakpadTest  ???  (main)
+0x100005000 - 0x10000cfff  Breakpad  0.1.0.0
+0x100012000 - 0x100022fff  breakpadUtilities.dylib  0.1.0.0
+0x1003d7000 - 0x1003dafff  SIMBL  0.0.0.0
+0x1007cd000 - 0x1007ecfff  Afloat  0.0.0.0  (WARNING: No symbols, Afloat, C567B4D09FBA3032AA087E3A87ABDB950)
+0x7fff80003000 - 0x7fff80063fff  IOKit  0.275.0.0
+0x7fff80064000 - 0x7fff8006afff  IOSurface  0.1.0.0
+0x7fff80272000 - 0x7fff8029dfff  libxslt.1.dylib  0.3.24.0
+0x7fff8029e000 - 0x7fff80308fff  libvMisc.dylib  0.268.0.1
+0x7fff80309000 - 0x7fff8033afff  libGLImage.dylib  0.1.0.0
+0x7fff80379000 - 0x7fff8039afff  libresolv.9.dylib  0.41.1.0
+0x7fff8040f000 - 0x7fff804c8fff  libsqlite3.dylib  0.9.6.0
+0x7fff806c8000 - 0x7fff806edfff  CoreVideo  0.1.6.2
+0x7fff806ee000 - 0x7fff806f2fff  libmathCommon.A.dylib  0.315.0.0
+0x7fff806f3000 - 0x7fff80b36fff  libLAPACK.dylib  0.219.0.0
+0x7fff80b37000 - 0x7fff80b4bfff  libGL.dylib  0.1.0.0
+0x7fff80b4c000 - 0x7fff80b9ffff  HIServices  0.311.0.0
+0x7fff80d3d000 - 0x7fff80e57fff  libGLProgrammability.dylib  0.1.0.0
+0x7fff80f02000 - 0x7fff80f43fff  QD  0.264.3.0
+0x7fff81005000 - 0x7fff810c6fff  ColorSync  0.4.6.0
+0x7fff810c7000 - 0x7fff8111cfff  FamilyControls  0.1.0.0
+0x7fff8111d000 - 0x7fff812dcfff  ImageIO  0.1.0.0
+0x7fff8140a000 - 0x7fff8140cfff  Print  0.237.1.0
+0x7fff8140d000 - 0x7fff81412fff  CommonPanels  0.91.0.0
+0x7fff81438000 - 0x7fff81439fff  TrustEvaluationAgent  0.1.0.0
+0x7fff8143a000 - 0x7fff814b9fff  CoreAudio  0.1.0.0
+0x7fff814ba000 - 0x7fff8173cfff  Foundation  0.751.63.0  (WARNING: No symbols, Foundation, E10E4DB49D5E54A83FB62A82426066E40)
+0x7fff81797000 - 0x7fff817b7fff  DirectoryService  0.309.0.0
+0x7fff81836000 - 0x7fff8191bfff  DesktopServicesPriv  0.67.0.0
+0x7fff81b8b000 - 0x7fff81b8ffff  libCGXType.A.dylib  0.545.0.0
+0x7fff81b98000 - 0x7fff81bc0fff  DictionaryServices  0.1.0.0
+0x7fff81bc1000 - 0x7fff81d38fff  CoreFoundation  0.550.44.0  (WARNING: No symbols, CoreFoundation, BB4E5158E47A39D3256196CB49FA82D40)
+0x7fff81d39000 - 0x7fff81d8ffff  libTIFF.dylib  0.1.0.0
+0x7fff81d90000 - 0x7fff81e46fff  libobjc.A.dylib  0.227.0.0  (WARNING: No symbols, libobjc.A.dylib, 031405313B2D1EBADA7FE12CC8F639690)
+0x7fff81e92000 - 0x7fff81f10fff  CoreText  0.151.12.0
+0x7fff82100000 - 0x7fff82111fff  libz.1.dylib  0.1.2.3
+0x7fff82112000 - 0x7fff821d4fff  libFontParser.dylib  0.1.0.0
+0x7fff821d5000 - 0x7fff8228afff  Ink  0.95.0.0
+0x7fff82293000 - 0x7fff82293fff  CoreServices  0.44.0.0
+0x7fff8285d000 - 0x7fff828e9fff  SecurityFoundation  0.1.0.0
+0x7fff828ea000 - 0x7fff828effff  libGIF.dylib  0.1.0.0
+0x7fff828f0000 - 0x7fff8296dfff  libstdc++.6.dylib  0.7.9.0
+0x7fff8296e000 - 0x7fff829b6fff  libvDSP.dylib  0.268.0.1
+0x7fff829b7000 - 0x7fff829fafff  libRIP.A.dylib  0.545.0.0
+0x7fff829fb000 - 0x7fff82a11fff  MultitouchSupport  0.207.11.0
+0x7fff82a8f000 - 0x7fff82ac2fff  libTrueTypeScaler.dylib  0.1.0.0
+0x7fff82ac3000 - 0x7fff832cdfff  libBLAS.dylib  0.219.0.0
+0x7fff83321000 - 0x7fff8333afff  CFOpenDirectory  0.1.0.0
+0x7fff8333b000 - 0x7fff8333dfff  libRadiance.dylib  0.1.0.0
+0x7fff833ce000 - 0x7fff83657fff  Security  0.55002.0.0
+0x7fff836ca000 - 0x7fff8388bfff  libSystem.B.dylib  0.125.2.11  (WARNING: No symbols, libSystem.B.dylib, 9AB4F1D189DC0E8ADC8EA4FE4D69DB690)
+0x7fff838cc000 - 0x7fff838e3fff  ImageCapture  0.5.0.0
+0x7fff83a30000 - 0x7fff83b46fff  libxml2.2.dylib  0.10.3.0
+0x7fff83b47000 - 0x7fff83b4dfff  DiskArbitration  0.1.0.0
+0x7fff83b4e000 - 0x7fff83b5cfff  libkxld.dylib  0.1.0.0
+0x7fff83c59000 - 0x7fff840a0fff  RawCamera  0.3.7.1
+0x7fff840a1000 - 0x7fff840f0fff  PasswordServer  0.1.0.0
+0x7fff84435000 - 0x7fff84436fff  AudioUnit  0.1.0.0
+0x7fff84437000 - 0x7fff847d4fff  QuartzCore  0.1.6.3
+0x7fff84b6d000 - 0x7fff84b7ffff  libsasl2.2.dylib  0.3.15.0
+0x7fff84b8c000 - 0x7fff84b8cfff  ApplicationServices  0.38.0.0
+0x7fff84b9f000 - 0x7fff84b9ffff  Carbon  0.152.0.0
+0x7fff84ba0000 - 0x7fff8559afff  AppKit  0.1038.36.0  (WARNING: No symbols, AppKit, 4CFBE04C8FB3B0EA8DDB7E7D10E9D2510)
+0x7fff85613000 - 0x7fff85616fff  Help  0.1.0.0
+0x7fff85eec000 - 0x7fff85f7cfff  SearchKit  0.200.1.0
+0x7fff85f7d000 - 0x7fff85f8afff  libCSync.A.dylib  0.545.0.0
+0x7fff85f8b000 - 0x7fff85f8cfff  liblangid.dylib  0.1.0.0
+0x7fff85f8d000 - 0x7fff85f8dfff  vecLib  0.268.0.1
+0x7fff85f8e000 - 0x7fff8603efff  Kerberos  0.5.0.0
+0x7fff8603f000 - 0x7fff8603ffff  Cocoa  0.15.0.0
+0x7fff86040000 - 0x7fff8608afff  Metadata  0.507.15.0
+0x7fff860bd000 - 0x7fff867b9fff  CoreGraphics  0.545.0.0
+0x7fff867ba000 - 0x7fff86978fff  libicucore.A.dylib  0.40.0.0
+0x7fff879ed000 - 0x7fff879f0fff  SecurityHI  0.36638.0.0
+0x7fff879f1000 - 0x7fff87a3dfff  libauto.dylib  0.1.0.0
+0x7fff87aa2000 - 0x7fff87ae9fff  CoreUI  0.114.0.0
+0x7fff87aea000 - 0x7fff87aeffff  libGFXShared.dylib  0.1.0.0
+0x7fff87af0000 - 0x7fff87b17fff  libJPEG.dylib  0.1.0.0
+0x7fff88349000 - 0x7fff88487fff  CoreData  0.251.0.0
+0x7fff885bd000 - 0x7fff885d3fff  libbsm.0.dylib  0.1.0.0
+0x7fff8873a000 - 0x7fff88817fff  vImage  0.147.1.0
+0x7fff88840000 - 0x7fff888e0fff  LaunchServices  0.362.3.0
+0x7fff888e1000 - 0x7fff888e7fff  CommerceCore  0.9.1.0
+0x7fff888e8000 - 0x7fff888f7fff  NetFS  0.1.0.0
+0x7fff8893e000 - 0x7fff88c72fff  CarbonCore  0.861.39.0
+0x7fff88c73000 - 0x7fff88cb1fff  libFontRegistry.dylib  0.1.0.0
+0x7fff88cb2000 - 0x7fff88fb0fff  HIToolbox  0.461.0.0
+0x7fff891f4000 - 0x7fff89208fff  SpeechSynthesis  0.1.0.0
+0x7fff89209000 - 0x7fff89214fff  SpeechRecognition  0.1.0.0
+0x7fff8923f000 - 0x7fff8927afff  AE  0.496.5.0
+0x7fff8927b000 - 0x7fff89290fff  LangAnalysis  0.1.0.0
+0x7fff894cf000 - 0x7fff894d6fff  OpenDirectory  0.1.0.0
+0x7fff89950000 - 0x7fff89973fff  OpenCL  0.1.0.0
+0x7fff89af2000 - 0x7fff89af2fff  vecLib  0.268.0.1
+0x7fff89b09000 - 0x7fff89b8efff  PrintCore  0.312.7.0
+0x7fff89b9c000 - 0x7fff89b9ffff  libCoreVMClient.dylib  0.1.0.0
+0x7fff89bab000 - 0x7fff89babfff  Accelerate  0.4.0.0
+0x7fff89d1d000 - 0x7fff89d3efff  libPng.dylib  0.1.0.0
+0x7fff89d3f000 - 0x7fff89d80fff  SystemConfiguration  0.293.8.0
+0x7fff89ea8000 - 0x7fff89ee2fff  libcups.2.dylib  0.2.8.0
+0x7fff8a085000 - 0x7fff8a142fff  OSServices  0.359.2.0
+0x7fff8a17e000 - 0x7fff8a252fff  CFNetwork  0.454.12.4
+0x7fff8a29d000 - 0x7fff8a337fff  ATS  0.236.0.0
+0x7fff8a338000 - 0x7fff8a46dfff  AudioToolbox  0.1.0.0
+0x7fff8a46e000 - 0x7fff8a47dfff  OpenGL  0.1.0.0
+0x7fff8a47e000 - 0x7fff8a499fff  OpenScripting  0.1.0.0
+0x7fff8a56d000 - 0x7fff8a68cfff  libcrypto.0.9.8.dylib  0.0.9.8
+0x7fff8a69d000 - 0x7fff8a6e6fff  libGLU.dylib  0.1.0.0
